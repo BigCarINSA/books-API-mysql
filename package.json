@@ -1,0 +1,25 @@
+{
+    "name": "books_management",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --inspect ./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BigCarINSA/books-API.git"
+    },
+    "author": "Son Ngo",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2",
+        "mongoose": "^7.3.2",
+        "mysql2": "^3.6.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
